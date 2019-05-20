@@ -96,7 +96,7 @@ public class timer {
 
     public void start()  {
         
-        myTimer.scheduleAtFixedRate(task, 1000, 1000);
+        myTimer.scheduleAtFixedRate(task, 0, 1000);
         
     }
 }
